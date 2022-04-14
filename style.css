@@ -3,6 +3,13 @@
     margin: auto;
 }*/
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
 
 /*---HEADER---*/
 
@@ -33,14 +40,9 @@ header{
     justify-content: center;
 }
 
-.container h1{
-    font-family: 'Poppins', sans-serif;
-}
-
 .container p{
     width : 60%;
     margin: auto;
-    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -72,4 +74,35 @@ header{
 .img-center{
     display: flex;
     justify-content: center;
+}
+
+
+/*---SECTION3 NUM---*/
+
+.num-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 0;
+}
+
+.big{
+    font-size: 60px;
+    margin: 0;
+}
+
+/*---SECTION4 GROW TOGETHER AND CIE*/
+
+.col-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blue {
+    background-color: #F6FBFF;
+    margin-top: -5px;
+}
+
+.col-container div, .col-container img{
+    width: 40%;
 }
