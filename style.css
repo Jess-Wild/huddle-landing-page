@@ -5,9 +5,10 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    width: 1440px;
 }
 
-.poppins{
+h1,h2{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -18,14 +19,18 @@ header{
     justify-content: space-between;
 }
 
-#try{
+
+
+/*--- BUTTON HEADER--*/
+
+.try{
     background-color: #fff;
     border: 2px solid hsl(322, 100%, 66%);
     border-radius: 25px;
     padding: 2px 25px;
 }
 
-#try a{
+.try a{
     text-decoration: none;
     color:hsl(322, 100%, 66%);
 }
@@ -49,7 +54,7 @@ header{
 /*---BUTTON---*/
 
 
-.container button{
+button{
     background-color: hsl(322, 100%, 66%);
     border: none;
     border-radius: 25px;
@@ -60,14 +65,14 @@ header{
     font-weight: 400;
 }
 
-.container a{
+button a{
     text-decoration: none;
     color: #fff;
 }
 
-.container button:hover{
+/*button:hover{
     background-color: hsl(321, 100%, 78%);
-}
+}*/
 
 /*---SECTION2 IMAGE---*/
 
@@ -105,4 +110,53 @@ header{
 
 .col-container div, .col-container img{
     width: 40%;
+}
+
+.white{
+    margin: 100px 0;
+}
+
+/*---FOOTER---*/
+
+.footer-container{
+    background-color: #00252E;
+    color: #fff;
+    margin-top: -5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footer-container img{
+    filter: brightness(0) invert(1)
+}
+
+.contact{
+    font-size: 14px;
+    width: 20%;
+}
+
+.column{
+    display: flex;
+    align-items: center;
+}
+
+.column img{
+    width: 5%;
+    height: 5%;
+    margin-right: 20px;
+}
+
+input[type="email"]{
+    width: 200px;
+    height: 30px;
+}
+
+input[type=submit]{ 
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    border-radius: 5%;
+    color: #FFF;
+    padding: 10px 20px;
+
 }
